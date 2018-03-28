@@ -1,0 +1,13 @@
+[SddmGreeterTheme]
+Name=LainWired
+Description=Inspired by fauux.neocities.org
+Author=Andrés "mixedCase" Rodríguez
+Copyright=(c) 2016, Andrés Rodríguez
+License=CC-BY-SA
+Type=sddm-theme
+Version=0.9
+Website=https://gitlab.com/mixedCase/sddm-lain-wired-theme
+Screenshot=screenshot.png
+MainScript=Main.qml
+Theme-Id=lainwired
+Theme-API=2.0

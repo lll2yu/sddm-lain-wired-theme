@@ -2,16 +2,16 @@
 
 A sddm login screen inspired by 1998 anime ["Serial Experiments Lain"](https://myanimelist.net/anime/339/Serial_Experiments_Lain)
 
-** Note-**
+**Note-**
 This is a fork.
 Original version can be found [here](https://gitlab.com/mixedCase/sddm-lain-wired-theme)
 
 This one contains changes that I made for my 1366*786 screen.
 
-####In action :-
+# In action :-
 You can watch the preview video [here.](https://youtu.be/M-p7cHx4OM0)
 
-####Installation :-
+# Installation :-
 
 - Make sure you have sddm installed and configured as your default login manager.
 - Download this repository as zip or run 

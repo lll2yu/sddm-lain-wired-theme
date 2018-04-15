@@ -33,6 +33,7 @@ trizen -S --aur sddm-lain-wired-theme
 
 **Other GNU/Linux distros**
 - Make sure you have sddm installed and configured as your default login manager.
+- Install the dependencies ```qt5-multimedia``` & ```qt5-quickcontrols``` using your package manager.
 - Download the [latest release](https://github.com/lll2yu/sddm-lain-wired-theme/releases/latest)
 - Decompress the `*.zip` or `*.tar.gz` file or run `git clone https://github.com/lll2yu/sddm-lain-wired-theme`
 - Copy all files and directories into `/usr/share/sddm/themes/sddm-lain-wired-theme/` or open a terminal and run `sudo cp -r sddm-lain-wired-theme /usr/share/sddm/themes`

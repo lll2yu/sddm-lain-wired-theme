@@ -128,7 +128,17 @@ Rectangle {
 		fillMode: Image.PreserveAspectFit
 		MouseArea {
 			anchors.fill: parent
+			hoverEnabled: true
 			onClicked: sddm.powerOff()
+			onEntered: {
+				var component = Qt.createComponent("ShutdownToolTip.qml");
+				if (component.status == Component.Ready) {
+					var tooltip = component.createObject(shutdownBtn);
+					tooltip.x = -45
+					tooltip.y = 60
+				tooltip.destroy(600);
+				}
+			}
 		}
 	}
 	AnimatedImage {
@@ -142,7 +152,17 @@ Rectangle {
 		fillMode: Image.PreserveAspectFit
 		MouseArea {
 			anchors.fill: parent
+			hoverEnabled: true
 			onClicked: sddm.reboot()
+			onEntered: {
+				var component = Qt.createComponent("RebootToolTip.qml");
+				if (component.status == Component.Ready) {
+					var tooltip = component.createObject(rebootBtn);
+					tooltip.x = -45
+					tooltip.y = 50
+				tooltip.destroy(600);
+				}
+			}
 		}
 	}
 	ComboBox {
@@ -151,7 +171,6 @@ Rectangle {
 		width: 200
 		x: 15
 		y: 20
-		// arrowIcon: "angle-down.png"
 		model: sessionModel
 		index: sessionModel.lastIndex
 		color: "#000"
@@ -160,12 +179,6 @@ Rectangle {
 		hoverColor: "#d2738a"
 		textColor: "#c1b492"
 		arrowIcon: "angle-down.png"
-		// style: ComboBoxStyle {
-		// 	selectedTextColor: "#000"
-		// 	selectionColor: "#d2738a"
-		// 	background: Rectangle {
-		// 	}
-		// }
 		KeyNavigation.backtab: password; KeyNavigation.tab: rebootBtn;
 	}
 	Audio {

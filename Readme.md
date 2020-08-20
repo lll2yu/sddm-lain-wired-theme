@@ -14,7 +14,7 @@ You can watch the preview video [here.](https://youtu.be/M-p7cHx4OM0)
 # Installation :-
 **Arch Linux**
 
-It is available on the AUR, you can install it with `makepkg` or using an AUR helper.
+It is available on the [AUR](https://aur.archlinux.org/packages/sddm-lain-wired-theme), you can install it with `makepkg` or using an AUR helper.
 
 Using `makepkg`:
 
@@ -22,13 +22,6 @@ Using `makepkg`:
 git clone https://aur.archlinux.org/sddm-lain-wired-theme.git
 cd sddm-lain-wired-theme
 makepkg -Ccsi
-```
-___
-
-Using [trizen](https://github.com/trizen/trizen) AUR helper:
-
-```shell
-trizen -S --aur sddm-lain-wired-theme
 ```
 
 **Other GNU/Linux distros**

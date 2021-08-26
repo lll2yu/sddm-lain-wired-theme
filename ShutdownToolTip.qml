@@ -5,8 +5,9 @@ Rectangle {
     width:130
     height: 32
     border.width: 1
+    anchors.right: parent.right
     border.color: "#D27486"
-    property string label: "Ｓｈｕｔｄｏｗｎ"
+    property string label: "シャットダウン"
     Text {
         color: "#D27486"
 	font.pixelSize : 14

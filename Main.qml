@@ -47,7 +47,7 @@ Rectangle {
 		}
 		Qqc.Label {
 			Layout.alignment: Qt.AlignCenter
-			text: "Ｕｓｅｒ ＩD:"
+			text: " ユーザー ID: "
 			color: "#c1b492"
 			font.pixelSize: 16
 		}
@@ -73,7 +73,7 @@ Rectangle {
 		}
 		Qqc.Label {
 			Layout.alignment: Qt.AlignCenter
-			text: "Ｐａｓｓｗｏｒｄ："
+			text: " パスワード "
 			color: "#c1b492"
 			font.pixelSize: 16
 		}
@@ -108,7 +108,7 @@ Rectangle {
 			}
 			Qqc.Label {
 				Layout.alignment: Qt.AlignCenter
-				text: "Ｌｏｇｉｎ"
+				text: "ログインする"
 				color: "#c1b492"
 				font.pixelSize: 20
 			}
